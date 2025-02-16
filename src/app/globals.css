@@ -2,20 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+*{
+    font-family:  "Golos Text";
+}
+button{
+    font-family:  "Golos Text";
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* @keyframes move-left-right {
+  0% { transform: translateX(0); }     
+  25% { transform: translateX(30%); }  
+  50% { transform: translateX(0); }    
+  75% { transform: translateX(-30%); } 
+  100% { transform: translateX(0); }   
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes move-right-left {
+  0% { transform: translateX(0); }     
+  25% { transform: translateX(-30%); } 
+  50% { transform: translateX(0); }    
+  75% { transform: translateX(30%); }  
+  100% { transform: translateX(0); }   
 }
+
+.animate-logo1 {
+  animation: move-left-right 30s ease-in-out infinite;  
+  display: flex;
+  gap: 24px;
+}
+
+.animate-logo2 {
+  animation: move-right-left 30s ease-in-out infinite; 
+  display: flex;
+  gap: 24px;
+} */
+
+::-webkit-scrollbar {
+  height: 6px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4A90E2; 
+  border-radius: 6px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: #E0E0E0; 
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
