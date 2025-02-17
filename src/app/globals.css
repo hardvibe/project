@@ -11,34 +11,6 @@ button{
     font-family:  "Golos Text";
 }
 
-/* @keyframes move-left-right {
-  0% { transform: translateX(0); }     
-  25% { transform: translateX(30%); }  
-  50% { transform: translateX(0); }    
-  75% { transform: translateX(-30%); } 
-  100% { transform: translateX(0); }   
-}
-
-@keyframes move-right-left {
-  0% { transform: translateX(0); }     
-  25% { transform: translateX(-30%); } 
-  50% { transform: translateX(0); }    
-  75% { transform: translateX(30%); }  
-  100% { transform: translateX(0); }   
-}
-
-.animate-logo1 {
-  animation: move-left-right 30s ease-in-out infinite;  
-  display: flex;
-  gap: 24px;
-}
-
-.animate-logo2 {
-  animation: move-right-left 30s ease-in-out infinite; 
-  display: flex;
-  gap: 24px;
-} */
-
 ::-webkit-scrollbar {
   height: 6px; 
 }

@@ -9,9 +9,9 @@ export default function Home() {
   <div className='mt-10 ml-12 w-[476px] h-[246px] flex flex-col justify-between text-[#2F2E36]'>
     <h2 className='font-medium text-[56px] leading-[72px] tracking-normal'>Партнёрам</h2>
     <p className="font-normal text-[16px] leading-[24px] tracking-normal">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-    <div className='flex w-[222px] justify-between items-center'>
+    <div className='flex items-center'>
       <img src='/Images/check.png'></img>
-      <p className='font-medium text-[16px] leading-[24px] tracking-normal underline decoration-solid'>Условия сотрудничества</p>
+      <Link href="#" className="font-medium text-[16px] leading-[24px] tracking-normal underline decoration-solid pl-2 cursor-pointer">Условия сотрудничества</Link>
     </div>
   </div>
   <div className='mt-[50px] w-[640px] h-[236px] flex flex-col justify-between '>

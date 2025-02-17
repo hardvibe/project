@@ -12,12 +12,12 @@ export default function Header() {
     const closeModal = () => setIsModalOpen(false);
 
     return (
-        <div className="w-full flex flex-col justify-between px-12 relative z-10 bg-white">
+        <header className="w-full flex flex-col justify-between px-12 relative z-10 bg-white">
             <div className="flex items-center justify-between mt-[39px] mb-[40px] h-[40px] text-[#353535]">
                 <div className="logo">
                     <Link href="/">
                         <Image src="/Images/logo.png" alt="Лого" width={180} height={39} className="cursor-pointer" />
-                    </Link>
+                    </Link> 
                 </div>
                 <nav>
                     <ul className="flex space-x-8 text-lg font-medium">
@@ -53,7 +53,7 @@ export default function Header() {
                         <p className="mb-4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
-                    <div className="flex bg-white rounded-xl shadow-lg ml-8 mt-[304px] ml-[455px] h-[48px] items-center">
+                    <div className="flex bg-white rounded-xl shadow-lg mt-[304px] ml-[455px] h-[48px] items-center">
                         <Image src="/Images/Header/map pin.png" alt="Локация" width={20} height={20} className="ml-[16px]" />
                         <h2 className="text-2xl font-medium ml-4 text-[#2F2E36] mr-[20px]">Astana</h2>
                     </div>
@@ -61,6 +61,6 @@ export default function Header() {
             </div>
 
             <Modal isOpen={isModalOpen} onClose={closeModal} />
-        </div>
+        </header>
     );
 }
